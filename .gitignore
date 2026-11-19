@@ -1,0 +1,41 @@
+﻿# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents and local storage
+backend/storage/
+storage/
+uploads/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+npm-debug.log*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database and test files
+*.db
+*.sqlite
+*.sqlite3
+test_document.pdf
+Notes.txt
+
+# Local testing files
+backend/fake_document.pdf
+backend/test_db.py
+backend/test_groq_speed.py
